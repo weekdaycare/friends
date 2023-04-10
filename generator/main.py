@@ -92,6 +92,6 @@ i = 0
 for filename in filenames:
     full_path.append(outputdir + '/' + filename + '.json')
     with open(full_path[i], 'w', encoding='utf-8') as file_obj:
-        data = {'class_name': '五湖四海的友人','class_desc': '形形的人，色色达咩', 'link_list': json_pool[i]}
+        data = [{'class_name': '五湖四海的友人','class_desc': '形形的人，色色达咩', 'link_list': json_pool[i]}]
         json.dump(data, file_obj, ensure_ascii=False, indent=2)
     i += 1
