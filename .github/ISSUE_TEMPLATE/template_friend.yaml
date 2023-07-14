@@ -28,10 +28,11 @@ body:
       value: |
         ```json
         {
-            "name": "",
-            "link": "",
+            "title": "",
+            "url": "",
             "avatar": "",
-            "descr": ""
+            "screenshot": "",
+            "description": ""
         }
         ```
   - type: input
